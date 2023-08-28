@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 /* header section start */
- 
+
 .header-container {
   padding: 100px 50px 0px;
   background-color: #e554731a;
@@ -28,3 +28,72 @@ body {
   color: white;
 }
 /* header section end */
+
+/* sign-up-section start */
+.sign-up-container {
+  margin-top: 100px;
+  padding: 80px 50px;
+  background-color: #e554731a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.signUp-content {
+  width: 500px;
+  text-align: center;
+}
+.signUp-content h1 {
+  font-size: 30px;
+}
+.signUp-img img {
+  width: 250px;
+}
+/* sign-up-section end */
+
+/* social-media-container */
+.social-media-container {
+  margin: 100px 100px 50px;
+}
+.social-content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.social-content h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+}
+.img-gallery img {
+  width: 250px;
+}
+.img-gallery {
+  display: flex;
+  justify-content: space-around;
+}
+/* .img-gallery{
+    display: flex;
+} */
+/* social-media-container end */
+.getDeal-container {
+  margin: 100px 100px 50px;
+  padding: 100px 0px;
+  text-align: center;
+  background-image: url(/image/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+}
+#input-field {
+  padding: 6px 200px 6px 5px;
+}
+
+footer {
+  padding: 100px 2px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+footer h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+}
+.footer-title span{
+  color: #e55473;
+}
