@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+/* header section start */
+ 
+.header-container {
+  padding: 100px 50px 0px;
+  background-color: #e554731a;
+  display: flex;
+  justify-content: space-around;
+}
+.header-content {
+  width: 500px;
+}
+.header-img {
+  max-width: 100%;
+  height: auto;
+}
+.header-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+}
+.primary-btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: #e55473;
+  border: none;
+  color: white;
+}
+/* header section end */
