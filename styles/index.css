@@ -65,9 +65,24 @@ body {
 
 /* feature-image section end */
 
+/* ourService-container */
+.ourService-container{
+  margin: 200px 100px 0px;
+  padding: 50px 40px;
+  background-color: rgb(237, 237, 234);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.single-service{
+  text-align: center;
+}
+
+/* ourService-container end */
+
 /* sign-up-section start */
 .sign-up-container {
-  margin-top: 250px;
+  margin-top: 150px;
   padding: 80px 50px;
   background-color: #e554731a;
   display: flex;
@@ -144,6 +159,7 @@ body {
 /* Get deal container end */
 
 footer {
+  margin-top: 100px;
   padding: 100px 2px;
   text-align: center;
   background-color: black;
