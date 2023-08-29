@@ -26,6 +26,7 @@ body {
   background: #e55473;
   border: none;
   color: white;
+  cursor: pointer;
 }
 /* header section end */
 
@@ -62,7 +63,6 @@ body {
   background-color: #477D1126;
 }
 
-
 /* feature-image section end */
 
 /* sign-up-section start */
@@ -85,6 +85,21 @@ body {
   width: 250px;
 }
 /* sign-up-section end */
+
+/* feedback-container */
+.feedback-container{
+  margin: 100px 100px 50px;
+  text-align: center;
+  background-color: beige;
+  padding: 100px 20px;
+  border-radius: 15px;
+}
+.feedback-container h1{
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+/* feedback-container end */
 
 /* social-media-container */
 .social-media-container {
@@ -115,6 +130,12 @@ body {
   text-align: center;
   background-image: url(/images/Rectangle\ 9.png);
   background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.getDeal-content h1{
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  margin-bottom: 2px;
 }
 #input-field {
   padding: 6px 200px 6px 5px;
